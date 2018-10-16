@@ -1,0 +1,10 @@
+
+git 指南：http://rogerdudler.github.io/git-guide/index.zh.html
+
+1、设置用户
+git config --global user.name "username"
+git config --global user.email "email@qq.com"
+
+2、commit
+a、git commit -m “message” （提交新的commit，将add后的文件都提交）
+b、git commit --amend （将新的修改追加到未push的commit中）
